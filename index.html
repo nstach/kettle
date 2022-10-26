@@ -9,7 +9,7 @@
     }
 
     .kettle-top {
-      width: 140px;
+      width: 120px;
       height: 30px;
       background: rgb(255, 112, 0);
       border-radius: 100px / 50px;
@@ -29,20 +29,24 @@
     }
 
     .kettle-spout {
+      width: 50px;
+      height: 70px;
       background: rgb(255, 112, 0);
-      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+     clip-path: polygon(0% 0%, 44% 0, 100% 30%, 44% 100%, 0% 100%);
       position: relative;
-      bottom: 0px;
-      left: 0px;
-      z-index: 5;
+      bottom: 162px;
+      left: 90px;
+      z-index: -1;
     }
 
     .kettle-handle {
       clip-path: polygon(20% 0%, 80% 0%, 79% 21%, 47% 25%, 26% 42%, 39% 95%, 0 95%, 0% 20%);
       background: black;
+      height: 120px;
+      width: 70px;
       position: relative;
-      bottom: 0px;
-      left: 0px;
+      bottom: 210px;
+      right: 55px;
       z-index: 5;
     }
 
@@ -65,11 +69,11 @@
 
 
   <div class="kettle-body">
-    <div class="kettle-handle"></div>
-    <div class="kettle-spout"></div>
     <div class="kettle-bottom">
     </div>
     <div class="kettle-top">
     </div>
     <div class="kettle-knob"></div>
-  </div>
+    <div class="kettle-spout"></div>    
+    <div class="kettle-handle"></div>
+</div>
